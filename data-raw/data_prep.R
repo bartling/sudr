@@ -1,0 +1,5 @@
+library(sf)
+library(geojsonsf)
+library(devtools)
+tacoma <- geojson_sf("https://services3.arcgis.com/SCwJH1pD8WSn5T5y/arcgis/rest/services/Equity_Index_2022/FeatureServer/0/query?outFields=*&where=1%3D1&f=geojson")
+use_data(tacoma, overwrite = TRUE)

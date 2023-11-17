@@ -1,0 +1,13 @@
+Package: sudr
+Version: 0.1-1
+Date: 2023-11-16
+Title: Data to support the book, Sustainable Urban Development with R
+Authors@R: c(person("Hugh", "Bartling", role = c("aut", "cre"),
+                     email = "hugh.bartling@depaul.edu"))
+Author: Hugh Bartling [aut, cre]
+Maintainer: Hugh Bartling <hugh.bartling@depaul.edu>
+Depends: R (>= 3.1.0)
+Description: The package accompanies the book, Sustainable Urban Development with R.
+License: GPL (>= 2)
+URL: https://www.hughbartling.com
+
