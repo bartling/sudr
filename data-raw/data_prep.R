@@ -1,5 +1,8 @@
 library(sf)
 library(geojsonsf)
 library(devtools)
+library(dplyr)
 tacoma <- geojson_sf("https://services3.arcgis.com/SCwJH1pD8WSn5T5y/arcgis/rest/services/Equity_Index_2022/FeatureServer/0/query?outFields=*&where=1%3D1&f=geojson")
 use_data(tacoma, overwrite = TRUE)
+tac_ei <- st_drop_geometry(tacoma)
+use_data(tac_ei, overwrite= TRUE)

@@ -10,4 +10,5 @@ Depends: R (>= 3.1.0)
 Description: The package accompanies the book, Sustainable Urban Development with R.
 License: GPL (>= 2)
 URL: https://www.hughbartling.com
-
+RoxygenNote: 7.2.3
+LazyData: true
